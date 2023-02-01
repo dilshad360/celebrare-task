@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <title>Celebrare - Task</title>
+</head>
+
+<body>
+    <div class="container">
+        <img class="mt-4" width="200px" src="assets/logo.webp">
+
+        <div class="m-3">
+            <input type="file" class="form-control" id="input_file" accept="image/png, image/jpeg" />
+        </div>
+
+        <div class="clip-mask d-flex justify-content-center">
+            <img id="reset" class="border border-secondary rounded p-2 m-1" width="60px" src="assets/reset.png">
+            <img id="heart" class="border border-secondary rounded p-2 m-1" width="60px" src="assets/heart.png">
+            <img id="sqr" class="border border-secondary rounded p-2 m-1" width="60px" src="assets/sqr.png">
+            <img id="circle" class="border border-secondary rounded p-2 m-1" width="60px" src="assets/circle.png">
+            <img id="rect" class="border border-secondary rounded p-2 m-1" width="60px" src="assets/rect.png">
+        </div>
+
+        <img id="hidden" class="d-none"/>
+        <div class="d-flex justify-content-center">
+            <canvas id="canvas" width="500" height="500" class="m-2"></canvas>
+        </div>
+
+
+        <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+            <div class="d-flex align-items-center">
+              <span class="mb-3 mb-md-0 text-muted">Crafted with 🧡 by <a class="link-secondary" href="https://mohameddilshad.in/" target="_blank">Dilshad360</a></span>
+            </div>
+          </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
